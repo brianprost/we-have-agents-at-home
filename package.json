@@ -1,0 +1,24 @@
+{
+  "name": "we-have-agents-at-home",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "sst dev",
+    "deploy": "sst deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@aws-sdk/client-dynamodb": "^3.712.0",
+    "@aws-sdk/lib-dynamodb": "^3.712.0",
+    "@b-fuze/deno-dom": "npm:@jsr/b-fuze__deno-dom@^0.1.48",
+    "hono": "npm:@jsr/hono__hono@^4.6.14",
+    "@std/dotenv": "npm:@jsr/std__dotenv@^0.225.3",
+    "@tavily/core": "^0.0.2",
+    "sst": "^3.4.4",
+    "zod": "^3.24.1"
+  }
+}

@@ -1,0 +1,6 @@
+.env
+
+# sst
+.sst
+
+node_modules/
